@@ -1,7 +1,7 @@
 {
   "name": "test-bot-urls",
   "version": "1.1.0",
-  "description": "Microservice for yookassa payment of the whole group of neurotales",
+  "description": "bot for urls",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && babel dist --out-dir dist",
@@ -17,12 +17,13 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "babel-plugin-module-resolver": "^5.0.2",
+    "dotenv": "^16.4.7",
     "grammy": "^1.35.1",
     "ts-node-dev": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.1",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.2"
   }
 }
